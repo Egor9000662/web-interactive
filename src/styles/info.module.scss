@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  .box_img {
+    background-image: url(../images/bg_info.png);
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box_content_container {
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .box_content {
+      width: 80%;
+      
+
+      p {
+        font-size: 52px;
+        font-weight: 400;
+        margin-bottom: 60px;
+        text-align: center;
+      }
+
+      .list {
+        ul {
+          display: flex;
+          align-items: flex-end;
+          flex-direction: column;
+          list-style: none;
+          li {
+            text-align: end;
+            width: 80%;
+            margin-bottom:40px ;
+          }
+        }
+      }
+    }
+  }
+}
