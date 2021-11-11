@@ -12,10 +12,10 @@ import benefits_9 from "../images/icons_benifits/award9.png";
 import benefits_10 from "../images/icons_benifits/award10.png";
 import benefits_11 from "../images/icons_benifits/award11.png";
 import benefits_12 from "../images/icons_benifits/award12.png";
-import ben_2_1 from '../images/icons_benefist_two/ben_2_1.png'
-import ben_2_2 from '../images/icons_benefist_two/ben_2_2.png'
-import ben_2_3 from '../images/icons_benefist_two/ben_2_3.png'
-import ben_2_4 from '../images/icons_benefist_two/ben_2_4.png'
+import ben_2_1 from "../images/icons_benefist_two/ben_2_1.png";
+import ben_2_2 from "../images/icons_benefist_two/ben_2_2.png";
+import ben_2_3 from "../images/icons_benefist_two/ben_2_3.png";
+import ben_2_4 from "../images/icons_benefist_two/ben_2_4.png";
 
 function Products() {
   return (
@@ -76,8 +76,25 @@ function Products() {
       </div>
       <div className={styles.box_benefits_two}>
         <div className={styles.container_benefist_two}>
-          <p>Наши преимущества</p>
-
+          <h2>Наши преимущества</h2>
+          <div className={styles.container_benefist_two_content}>
+            <div className={styles.box_benefist_two_content}>
+              <img src={ben_2_1} alt="" />
+              <p>Сделаем адаптивный дизайн, под любой вид устройств</p>
+            </div>
+            <div className={styles.box_benefist_two_content}>
+              <img src={ben_2_2} alt="" />
+              <p>Настроим все возможные способы обратной связи. Заявки на почту, подключим онлайн консультанта, настроим телефонный звон с сайта, подключим Whatsapp к сайту</p>
+            </div>
+            <div className={styles.box_benefist_two_content}>
+              <img src={ben_2_3} alt="" />
+              <p>Настроим все возможные способы обратной связи. Заявки на почту, подключим онлайн консультанта, настроим телефонный звон с сайта, подключим Whatsapp к сайту</p>
+            </div>
+            <div className={styles.box_benefist_two_content}>
+              <img src={ben_2_4} alt="" />
+              <p>Проведем анализ вашей сферы и конкурентов, предложим лучшие инструменты для продвижения в интернете</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
